@@ -1,0 +1,13 @@
+[dev]
+52.90.169.223
+
+[dev:vars]
+ansible_user=ubuntu
+ansible_connection=ssh
+
+[prod]
+54.165.105.106
+
+[prod:vars]
+ansible_user=ubuntu
+ansible_connection=ssh 
